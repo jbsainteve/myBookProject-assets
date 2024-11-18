@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculate PI</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+  <h1>Parking - analyse en temps réel</h1>
+  <video controls='controls' autoplay loop>
+    <source src='parking-Space-Counter.mp4'>
+  </video>
+
+  <p>Le développement est basé sur la bibliothèque Open Computer Vision (OpenCV)</p>
+  <p>On utilise une technique de masque appliqué sur l'image de la caméra pour isoler chaque place de parking</p>
+  <img src="masque2.jpg" alt="masque">
+  <p>Chaque petit rectangle est présenté à un modèle d'IA de type Classifier binaire réalisé avec un réseau de neurones.
+  </p>
+  <p>Le modèle est entraîné pour dire si oui ou non la place de parking est libre. Le modèle a été entraîné avec des centaines d'images de places de parking occupées ou vides.
+  </p>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
